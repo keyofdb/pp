@@ -1,0 +1,40 @@
+{
+  "id": "Certifications",
+  "version": "1.0",
+  "name": "Certifications",
+  "type": "object",
+  "properties": {
+    "Education And Training": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "AutoNumber": "integer",
+          "Certificate": {
+            "type": "object",
+            "properties": {
+              "InstitutionId": { "type": "string" },
+              "Name": { "type": "string" },
+              "Address1": { "type": "string" },
+              "Address2": { "type": "string" },
+              "City": { "type": "string" },
+              "State": { "type": "string" },
+              "Zip": { "type": "string" },
+              "Country": { "type": "string" }
+            },
+          },
+          "Program": {
+            "type": "object",
+            "properties": {
+              "ProgramId": { "type": "string" },
+              "Name": { "type": "string" }
+            }
+          },
+          "Status": { "type": "string" },
+          "FromDate": { "type": "string" },
+          "ToDate": { "type": "string" }
+        }
+      }
+    }
+  }
+}

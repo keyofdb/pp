@@ -1,0 +1,40 @@
+{
+  "id": "education-and-training",
+  "Version": "1.0",
+  "Name": "Education & Training",
+  "type": "object",
+  "properties": {
+    "EducationAndTraining": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "AutoNumber": "integer",
+          "Institution": {
+            "type": "object",
+            "properties": {
+              "InstitutionId": { "type": "string" },
+              "Name": { "type": "string" },
+              "Address1": { "type": "string" },
+              "Address2": { "type": "string" },
+              "City": { "type": "string" },
+              "State": { "type": "string" },
+              "Zip": { "type": "string" },
+              "Country": { "type": "string" }
+            },
+          },
+          "Program": {
+            "type": "object",
+            "properties": {
+              "ProgramId": { type": "string" },
+              "Name": { type": "string" }
+            }
+          },
+          "Status": { "type": "string" },
+          "FromDate": { "type": "string" },
+          "ToDateDate": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -35,6 +35,7 @@
           "type": "object",
           "properties": {
               "FeatureId": { "type": "string" },
+              "Name": { "type": "string" },
               "Version": { "type": "string" }
           }
         }
